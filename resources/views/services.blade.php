@@ -3,7 +3,7 @@
 @section('title', 'Laravel | Services')
 
 @section('content')
-    <h1>Estos son mis servicios</h1>
+    <h1 class="title-services">Estos son mis servicios</h1>
     <div class="services-container">
     @component('_components.card')
         @slot('title', 'Service 1')
